@@ -1,5 +1,8 @@
 # The Flavorful Spoon - Restaurant Menu Display
 
+(Github link:)[https://github.com/rinu143/react-menu-app.git]
+(Deployment link:)[https://regal-longma-898a18.netlify.app/]
+
 This project is a simple, responsive restaurant menu website built with React and Vite. It showcases various menu items, categorized for easy browsing, and highlights vegetarian options.
 
 ## Table of Contents
