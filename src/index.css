@@ -1,0 +1,9 @@
+/* 
+  Global styles can go here, but most of our styling is handled 
+  in App.css and component-specific stylesheets.
+  We'll keep this file minimal.
+*/
+
+body {
+  margin: 0;
+}

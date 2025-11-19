@@ -1,0 +1,143 @@
+/* e:\Documents\restaurantmenu_rinu\src\App.css */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Proza+Libre:wght@400;500&display=swap");
+
+body {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fcfcfc;
+  color: #333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.restaurant-menu-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.app-header h1 {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+  font-size: 3em;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+.app-header .tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #777;
+}
+
+.menu-content {
+  padding: 20px 0;
+}
+
+.menu-category-section {
+  background-color: transparent;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.category-heading {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  color: #d35400; /* Rich Orange Accent */
+  font-size: 2em;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.menu-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+
+.restaurant-info-section {
+  text-align: center;
+  background-color: #fff8f0; /* Light Cream/Orange Background */
+  border-radius: 8px;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-heading {
+  font-family: "Cormorant Garamond", serif;
+  color: #333;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.restaurant-info-section p {
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  color: #888;
+  font-size: 0.9em;
+}
+
+.app-footer p {
+  margin: 4px 0;
+}
+
+.app-footer a {
+  color: #d35400; /* Rich Orange Accent */
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  .restaurant-menu-app {
+    padding: 15px;
+  }
+
+  .app-header {
+    padding: 40px 15px;
+  }
+
+  .app-header h1 {
+    font-size: 2.2em;
+  }
+
+  .app-header .tagline {
+    font-size: 1em;
+  }
+
+  .menu-category-section {
+    padding: 0;
+  }
+
+  .category-heading {
+    font-size: 1.6em;
+  }
+
+  .menu-items-grid {
+    grid-template-columns: 1fr; /* Stack cards vertically on small screens */
+  }
+}
