@@ -33,7 +33,7 @@ To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/restaurantmenu_rinu.git
+    git clone https://github.com/rinu143/react-menu-app.git
     cd restaurantmenu_rinu
     ```
 2.  **Install dependencies:**
